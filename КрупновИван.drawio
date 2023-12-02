@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T09:54:45.170Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="J70H87gQTVzwODRsHJFb" version="22.1.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-02T10:04:40.676Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="nXY9Da44sDHSdaqWCAFx" version="22.1.5" type="device">
   <diagram name="Page-1" id="zW-MgHXihvFappo9nlR7">
     <mxGraphModel dx="1304" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,14 +25,11 @@
         <mxCell id="HAJf89q4UvbYXRyasf8V-10" value="Вход в профиль по ключу&lt;br style=&quot;font-size: 11px;&quot;&gt;" style="ellipse;whiteSpace=wrap;aspect=fixed;fontSize=11;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HAJf89q4UvbYXRyasf8V-11" value="Ввод названия лекарства&lt;br style=&quot;font-size: 11px;&quot;&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HAJf89q4UvbYXRyasf8V-12" value="Ввод единицы измерения (таблетка, капля, мл.)&lt;br style=&quot;font-size: 11px;&quot;&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="390" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="HAJf89q4UvbYXRyasf8V-11" value="Ввод названия лекарства и единицы измерения (капли, таблетки, мл.)" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HAJf89q4UvbYXRyasf8V-13" value="Ввод времени приема и количества" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="390" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HAJf89q4UvbYXRyasf8V-15" value="Добавление лекарства" style="ellipse;whiteSpace=wrap;aspect=fixed;fontSize=11;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="220" width="120" height="60" as="geometry" />
@@ -45,17 +42,6 @@
         </mxCell>
         <mxCell id="HAJf89q4UvbYXRyasf8V-28" value="«include»" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];html=1;fontSize=11;" parent="HAJf89q4UvbYXRyasf8V-19" vertex="1" connectable="0">
           <mxGeometry x="-0.0741" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HAJf89q4UvbYXRyasf8V-22" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" parent="1" source="HAJf89q4UvbYXRyasf8V-15" target="HAJf89q4UvbYXRyasf8V-12" edge="1">
-          <mxGeometry width="60" height="60" relative="1" as="geometry">
-            <mxPoint x="370" y="280" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HAJf89q4UvbYXRyasf8V-27" value="«include»" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];html=1;fontSize=11;" parent="HAJf89q4UvbYXRyasf8V-22" vertex="1" connectable="0">
-          <mxGeometry x="-0.1177" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
